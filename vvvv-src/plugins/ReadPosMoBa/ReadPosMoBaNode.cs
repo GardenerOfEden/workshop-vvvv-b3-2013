@@ -104,7 +104,7 @@ namespace VVVV.Nodes
 							{
 								try
 								{
-									FOutput.Add(double.Parse(c.Replace(".",",")));
+									FOutput.Add(double.Parse(c)); //c.Replace(".", ",")));
 								}
 								catch
 								{
