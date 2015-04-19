@@ -10,7 +10,6 @@
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <OutputPath>bin\$(Platform)\$(Configuration)\</OutputPath>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
-    <ReferencePath>..\..\..\..\..\develop\vvvv_45beta31_x86\lib\core\;..\..\..\..\..\develop\vvvv_45beta31_x86\lib\nodes\plugins\</ReferencePath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -72,16 +71,13 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="VVVV.Core">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\vvvv_45beta33.7_x86\lib\core\VVVV.Core.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>C:\Program Files (x86)\vvvv_45beta33.7_x86\lib\core\VVVV.Core.dll</HintPath>
     </Reference>
     <Reference Include="VVVV.PluginInterfaces">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\vvvv_45beta33.7_x86\lib\core\VVVV.PluginInterfaces.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>C:\Program Files (x86)\vvvv_45beta33.7_x86\lib\core\VVVV.PluginInterfaces.dll</HintPath>
     </Reference>
     <Reference Include="VVVV.Utils">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\vvvv_45beta33.7_x86\lib\core\VVVV.Utils.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>C:\Program Files (x86)\vvvv_45beta33.7_x86\lib\core\VVVV.Utils.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
